@@ -20,5 +20,5 @@ binary_tree_t *binary_tree_uncle(binary_tree_t *node)
 		right = parent->parent->right;
 	}
 
-	return (left == parent ? right : left);	
+	return (left == parent ? right : left);
 }
